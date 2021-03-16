@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="icon.png" type="image/png"/>
+</head>
+
+<body>
+    <nav class="navbar theme-navbar">
+        <div class="container-fluid">
+            <img src="logo.png" alt="Infrared Partners" class="theme-logo">
+            <div class="d-flex mt-2 mt-md-0">
+                <em>Where do you want to travel?</em>
+            </div>
+        </div>
+    </nav>
+
+    <section class="container-fluid theme-hero"></section>
+
+    <section class="container-fluid theme-content">
+        <div class="row">
+            <div class="col-md d-flex align-items-center text-center lh-lg">
+                <p>
+                    <strong><em>Infrared Partners</em></strong> connects meeting planners with trusted Destination Management Companies (DMCs)
+                    to deliver outstanding programs for clients in the Meetings, incentives, Conventions and Exhibitions (MICE) industry
+                    in the USA, Mexico, Latin America and the Caribbean and destinations around the world.
+                </p>
+            </div>
+            <div class="col-md d-flex align-items-center text-center theme-bg">
+                <div class="w-100">
+                    <p>Lisa Myers</p>
+                    <p>
+                        <a href="moc.srentrapderarfni@asil:otliam" class="js-flip-href">
+                            <span class="js-flip">moc.srentrapderarfni@asil</span>
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container-fluid theme-footer d-flex align-items-center text-center">
+        <small class="w-100">&copy; Copyright 2021. All rights reserved.</small>
+    </section>
+
+    <script>
+        Array.from(document.getElementsByClassName('js-flip')).forEach((el) => el.innerHTML = el.innerHTML.split('').reverse().join(''));
+        Array.from(document.getElementsByClassName('js-flip-href')).forEach((el) => el.setAttribute('href', el.getAttribute('href').split('').reverse().join('')));
+    </script>
+</body>
+</html>
